@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+.track {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    background-color: gray;
+    padding: 10px;
+}
+.pauseBtn {
+    background-image: url('./src/pause.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: inherit;
+    display: none;
+}
+.playBtn {
+    background-image: url('./src/play-button.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.volumeDown, .volumeUp {
+    background-color: gray;
+    width: 40px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.volumeSlider {
+    transform: rotate(270deg);
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.duration {
+    height: 100%;
+    width: 500px;
+}
+
+.title {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.title > h1 {
+    margin-bottom: 0;
+}
+
+.song_title {
+    color: whitesmoke;
+    margin-left: 20px;
+    width: 300px;
+}
+
+.current_time_song, .total_time_song {
+    color: white;
+}

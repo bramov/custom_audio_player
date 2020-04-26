@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel='stylesheet' href='./styles.css'>
+</head>
+
+<body>
+<div id="app">
+    <div class="title">
+        <h1>Just a simple custom audio player on vanilla JS</h1>
+    </div>
+    <div class='track'>
+        <audio class='player' src='./music/Mauzer.mp3' preload="metadata"></audio>
+        <button class='pauseBtn 0'></button>
+        <button class='playBtn 0'></button>
+        <p class="song_title">Mauzer - Panteri</p>
+        <input class='volumeSlider 0' type="range">
+        <progress class="duration 0" max="100" value="0"></progress>
+        <p class="current_time_song"></p><p class="total_time_song"></p>
+    </div>
+
+    <div class='track'>
+        <audio class='player' src='./music/hutor.mp3' preload="metadata"></audio>
+        <button class='pauseBtn 1'></button>
+        <button class='playBtn 1'></button>
+        <p class="song_title">Русская народная - Хуторянка</p>
+        <input class='volumeSlider 1' type="range">
+        <progress class="duration 1" max="100" value="0"></progress>
+        <p class="current_time_song"></p><p class="total_time_song"></p>
+    </div>
+
+    <div class='track'>
+        <audio class='player' src='./music/safeandsound.mp3' preload="metadata"></audio>
+        <button class='pauseBtn 2'></button>
+        <button class='playBtn 2'></button>
+        <p class="song_title">Capital cities - Safe and Sound</p>
+        <input class='volumeSlider 2' type="range">
+        <progress class="duration 2" max="100" value="0"></progress>
+        <p class="current_time_song"></p><p class="total_time_song"></p>
+    </div>
+
+    <div class='track'>
+        <audio class='player' src='./music/zveri.mp3' preload="metadata"></audio>
+        <button class='pauseBtn 3'></button>
+        <button class='playBtn 3'></button>
+        <p class="song_title">Chowampsy - Zver</p>
+        <input class='volumeSlider 3' type="range">
+        <progress class="duration 3" max="100" value="0"></progress>
+        <p class="current_time_song"></p><p class="total_time_song"></p>
+    </div>
+
+</div>
+
+<script src="./index.js">
+</script>
+</body>
+
+</html>
